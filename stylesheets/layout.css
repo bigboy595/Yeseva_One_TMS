@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  margin: 0 auto;
+  font-family: "Yeseva One";
+  width: 1440px;
+  background-color: #292929;
+  color: white;
+  overflow: auto;
+}
+
+.section-1 {
+  position: relative;
+
+  width: 1440px;
+}
+.section-1 h1 {
+  font-weight: 700;
+  font-size: 224px;
+  text-align: center;
+}
+.setka {
+  background-image: url("../images/setka5.png");
+  background-blend-mode: screen;
+  width: 1440px;
+  height: 5100px;
+  position: absolute;
+  top: 856px;
+  background-color: #292929;
+}
+.section-1-bg {
+  width: 1861px;
+  height: 573px;
+  position: absolute;
+  background-image: url("../images/section-1-bg.png");
+  top: 270px;
+  left: -210px;
+}
+.section-1-banki {
+  width: 1030px;
+  height: 410px;
+  position: absolute;
+  background-image: url("../images/banki.png");
+  top: 270px;
+  left: 225px;
+}
+.bigtxt1banka {
+  font-size: 42px;
+  color: #323232;
+  width: 195px;
+  height: 39px;
+  position: absolute;
+  text-align: center;
+  top: 505px;
+  left: 513px;
+}
+.midtxt1banka {
+  font-size: 25px;
+  color: #323232;
+  width: 195px;
+  height: 29px;
+  position: absolute;
+  top: 545px;
+  left: 513px;
+  text-align: center;
+}
+.smalltxt1banka {
+  font-size: 9px;
+  color: #323232;
+  width: 60px;
+  height: 29px;
+  position: absolute;
+  top: 570px;
+  left: 580px;
+  text-align: center;
+}
+.bankar {
+  top: -20px;
+  left: 270px;
+  width: 195px;
+  height: 83px;
+  position: absolute;
+  color: #ff0000;
+  text-align: center;
+}
+.bankicircle {
+  background-image: url("../images/bankicrug.png");
+  width: 695px;
+  height: 772.64px;
+  position: absolute;
+  top: 900px;
+  left: 700px;
+}
+.stakan {
+  background-image: url(../images/stacan.png);
+  width: 582.5px;
+  height: 694.25px;
+  position: absolute;
+  top: 1714px;
+  left: 100px;
+}
+.shadows {
+  background-image: url(../images/shadows.png);
+  width: 1102.63px;
+  height: 909.31px;
+  position: absolute;
+  top: 2300px;
+  left: 508px;
+}
+.mask {
+  background-image: url(../images/mask.png);
+  width: 1440px;
+  height: 1302px;
+  position: absolute;
+  top: 3172px;
+  left: 0px;
+}
+.ga {
+  background-image: url(../images/ga.png);
+  width: 1440px;
+  height: 1667px;
+  position: absolute;
+  top: 4386px;
+  left: 0px;
+}
+.last {
+  background-image: url(../images/last.png);
+  width: 1440px;
+  height: 1516px;
+  position: absolute;
+  top: 5670px;
+  left: 0px;
+}
+.article1 {
+  color: #ffffff;
+  width: 500px;
+  font-size: 111px;
+  line-height: 77%;
+  top: 1012px;
+  left: 121px;
+  position: absolute;
+}
+.article2 {
+  color: #ffffff;
+  width: 771px;
+  font-size: 103px;
+  line-height: 77%;
+  top: 1862px;
+  left: 590px;
+  position: absolute;
+}
+.article3 {
+  color: #ffffff;
+  width: 831px;
+  font-size: 111px;
+  line-height: 77%;
+  top: 2900px;
+  left: 118px;
+  position: absolute;
+}
+.smallarticle1 {
+  color: #df8f55;
+  font-size: 37px;
+  line-height: 77%;
+  top: 1277px;
+  left: 121px;
+  position: absolute;
+}
+.smallarticle2 {
+  color: #df8f55;
+  font-size: 41px;
+  line-height: 77%;
+  top: 2023px;
+  left: 590px;
+  position: absolute;
+}
+.smallarticle3 {
+  color: #df8f55;
+  font-size: 44px;
+  line-height: 77%;
+  top: 3014px;
+  left: 677px;
+  position: absolute;
+}
+.txt1 {
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 130%;
+  width: 511px;
+  height: 228px;
+  top: 1401px;
+  left: 118px;
+  position: absolute;
+}
+.txt2 {
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 130%;
+  width: 406px;
+  top: 2092px;
+  left: 927px;
+  position: absolute;
+}
+.txt3 {
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 130%;
+  width: 411px;
+  top: 2492px;
+  left: 118px;
+  position: absolute;
+}
+.txt4 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 130%;
+  width: 308px;
+  top: 3230px;
+  left: 118px;
+  position: absolute;
+}
+.txt5 {
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 37px;
+  width: 1084px;
+  top: 4176px;
+  left: 178px;
+  text-align: center;
+  position: absolute;
+}
+.txt6 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 130%;
+  width: 512px;
+  top: 4682px;
+  left: 118px;
+  position: absolute;
+}
+.txt7 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 130%;
+  width: 418px;
+  top: 6102px;
+  left: 118px;
+  position: absolute;
+}
+.article4 {
+  color: #df8f55;
+  font-size: 120px;
+  top: 4371px;
+  left: 118px;
+  position: absolute;
+}
+.article5 {
+  color: #df8f55;
+  font-size: 120px;
+  top: 5861px;
+  left: 118px;
+  position: absolute;
+}
+.txt8 {
+  color: #ffffff;
+  font-size: 100px;
+  top: 6884px;
+  left: 530px;
+  position: absolute;
+}
+.txt9 {
+  color: #ffffff;
+  font-size: 63px;
+  top: 7000px;
+  left: 946px;
+  position: absolute;
+}
