@@ -8,7 +8,7 @@ body {
   width: 1440px;
   background-color: #292929;
   color: white;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .section-1 {
@@ -16,10 +16,19 @@ body {
 
   width: 1440px;
 }
+.visulki {
+  width: 1440px;
+  height: 238px;
+  background-image: url(../images/visulki.png);
+  position: absolute;
+  top: -50px;
+  left: -5px;
+}
 .section-1 h1 {
   font-weight: 700;
   font-size: 224px;
   text-align: center;
+  color: #fff2e8;
 }
 .setka {
   background-image: url("../images/setka5.png");
@@ -31,12 +40,12 @@ body {
   background-color: #292929;
 }
 .section-1-bg {
-  width: 1861px;
+  width: 1440px;
   height: 573px;
   position: absolute;
-  background-image: url("../images/section-1-bg.png");
+  background-image: url("../images/section-1-bg2.png");
   top: 270px;
-  left: -210px;
+  left: 0px;
 }
 .section-1-banki {
   width: 1030px;
@@ -76,15 +85,37 @@ body {
   left: 580px;
   text-align: center;
 }
-.bankar {
-  top: -20px;
-  left: 270px;
+.bigtxt1banka1 {
+  font-size: 42px;
+  color: #ffffff;
   width: 195px;
-  height: 83px;
+  height: 39px;
   position: absolute;
-  color: #ff0000;
+  text-align: center;
+  top: 505px;
+  left: 790px;
+}
+.midtxt1banka1 {
+  font-size: 25px;
+  color: #ffffff;
+  width: 195px;
+  height: 29px;
+  position: absolute;
+  top: 545px;
+  left: 800px;
   text-align: center;
 }
+.smalltxt1banka1 {
+  font-size: 9px;
+  color: #ffffff;
+  width: 60px;
+  height: 29px;
+  position: absolute;
+  top: 570px;
+  left: 870px;
+  text-align: center;
+}
+
 .bankicircle {
   background-image: url("../images/bankicrug.png");
   width: 695px;
@@ -103,7 +134,7 @@ body {
 }
 .shadows {
   background-image: url(../images/shadows.png);
-  width: 1102.63px;
+  width: 980px;
   height: 909.31px;
   position: absolute;
   top: 2300px;
@@ -322,4 +353,7 @@ body {
   top: 3672px;
   left: 909px;
   position: absolute;
+}
+.orange {
+  color: #df8f55;
 }
